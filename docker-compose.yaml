@@ -1,7 +1,7 @@
 version: "3"
 services:
   api:
-    image: cosis-api:v1
+    image: cosis-image:v1
     container_name: api
     ports:
       - "8000:8000"
