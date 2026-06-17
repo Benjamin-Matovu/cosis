@@ -6,7 +6,7 @@ import redis
 import os
 
 # Database connection
-DATABASE_URL = "postgresql://postgres:devops123@postgres:5432/cosis_db"
+DATABASE_URL = "postgresql://postgres:12345@postgres:5432/cosis_db"
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
 Base = declarative_base()
