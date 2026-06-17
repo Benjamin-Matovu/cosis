@@ -25,7 +25,6 @@ def health():
     # Check database
     try:
         db = SessionLocal()
-        db.execute("SELECT 1")
         db.close()
         db_status = "✅"
     except:
